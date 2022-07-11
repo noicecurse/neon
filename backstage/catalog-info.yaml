@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "neon"
+  description: "neon"  
+  annotations:
+    github.com/project-slug: noicecurse/neon
+spec:
+  type: service
+  owner: "guests"
+  lifecycle: experimental
